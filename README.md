@@ -31,12 +31,11 @@ Key Features
 
 Repository Structure  
 1.avoidance/  
-        Edited_launch_file/  
-               global_planner_sitl_mavros.launch: This launch file configures the SITL (Software In The Loop) for MAVROS and the global planner, 
-                enabling the drone to navigate through waypoints autonomously.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Edited_launch_file/  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--global_planner_sitl_mavros.launch: This launch file configures the SITL (Software In The Loop) for MAVROS and the global planner, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;enabling the drone to navigate through waypoints autonomously.  
 2.maze_model/  
-       model.config: Defines the configuration for the maze model used in the Gazebo simulation.  
-       model.sdf: The SDF (Simulation Description Format) file that specifies the physical structure and properties of the maze.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-model.config: Defines the configuration for the maze model used in the Gazebo simulation.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-model.sdf: The SDF (Simulation Description Format) file that specifies the physical structure and properties of the maze.  
 3.README.md: Documentation providing instructions and project overview.  
 
 ------------------------------------------------------------------------------------------------------------------------------------
